@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2.9</title>
+</head>
+<body>
+    <form name="frmThongTin" method="post" action="">
+        <table cellpadding="0" cellspacing="3" align="center">
+            <tr>
+                <td colspan="2" align="left">
+                    <b><u>Bảng biểu thông tin</u></b>
+                </td>
+            </tr>
+            <tr>
+                <td>Họ và tên</td>
+                <td>
+                    <input type="text" name="hoten">
+                </td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <label>
+                        <input type="radio" name="gioitinh" value="Nam" checked>Nam
+                    </label>
+                    <label>
+                        <input type="radio" name="gioitinh" value="Nữ">Nữ
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích</td>
+                <td>
+                    <label>
+                        <input type="checkbox" name="sothich" value="NgheNhac">Nghe nhạc
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sothich" value="XemPhim">Xem phim
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sothich" value="ChoiGame">Chơi game
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td valign="bottom">Chú thích</td>
+                <td>
+                    <textarea name="chuthich" rows="5" cols="35"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Gửi">
+                    <input type="reset" value="Xóa">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2.6</title>
+</head>
+<body>
+    <form name="frmDangKy" method="post" action="">
+        <table align="center" cellpadding="3" cellspacing="3">
+            <tr>
+                <td colspan="2" align="left">
+                    <h1>FORM ĐĂNG KÝ</h1>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Họ tên</td>
+                <td>
+                    <input type="text" value="Nguyễn Văn A">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Ngày sinh</td>
+                <td>
+                    <input type="text" value="01/01/1990">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Giới tính</td>
+                <td>
+                    <label>
+                        <input type="radio" name="gioitinh" value="Nam"checked>
+                        Nam
+                    </label>
+                    <label>
+                        <input type="radio" name="gioitinh" value="Nữ">
+                        Nữ
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Sở thích</td>
+                <td>
+                    <label>
+                        <input type="checkbox" name="sothich" value="DocSach">
+                        Đọc sách
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sothich" value="NgheNhac">
+                        Nghe nhạc
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="sothich" value="ChoiGame">
+                        Chơi game
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sothich" value="XemPhim">
+                        Xem phim
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Số điện thoại</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Email</td>
+                <td>
+                    <textarea rows="2" cols="25"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <input type="submit" value="Gửi">
+                </td>
+                <td>
+                    <input type="reset" value="Xóa">
+                </td>  
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

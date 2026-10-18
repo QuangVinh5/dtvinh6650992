@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2.10</title>
+</head>
+<body>
+
+    <h1 align="center">
+        <font color="green">Subscription Form</font>
+    </h1>
+
+    <form name="frmSubscription" method="post" action="">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <table width="700" cellpadding="5">
+                <tr>
+                    <td>
+                        Last Name:
+                        <input type="text" name="lastname" value="Ho Va">
+                    </td>
+                    <td>
+                        First Name:
+                        <input type="text" name="firstname" value="Ten">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="radio" name="gender" value="Male" checked>Male
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="gender" value="Female">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        Address:<br>
+                        <textarea name="address" rows="5" cols="31">somewhere in Hanoi</textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Magazines subscription for</legend>
+
+            <input type="checkbox" name="magazine" value="TIME" checked>
+            TIME
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <input type="checkbox" name="magazine" value="Newsweek" checked>
+            Newsweek
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <input type="checkbox" name="magazine" value="Sunday">
+            Sunday
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <input type="checkbox" name="magazine" value="Vogue">
+            Vogue
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <input type="checkbox" name="magazine" value="People" checked>
+            People
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Duration</legend>
+
+            <input type="radio" name="duration" value="1 Year">
+            1 Year
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <input type="radio" name="duration" value="3 Years" checked>
+            3 Years
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <input type="radio" name="duration" value="5 Years">
+            5 Years
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Payment options</legend>
+
+            <input type="radio" name="payment" value="Demand Draft">
+            Demand Draft
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <input type="radio" name="payment" value="Credit Card" checked>
+            Credit Card
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Process">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>

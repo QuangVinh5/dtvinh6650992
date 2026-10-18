@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2.7</title>
+</head>
+<body>
+    <form name="frmThongTinDangKy" method="post" action="">
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+            <table border="1" width="300" cellpadding="3" cellspacing="3">
+                <tr>
+                    <td align="right">Họ tên</td>
+                    <td>
+                        <input type="text" name="hoten">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Ngày sinh</td>
+                    <td>
+                        <input type="text" name="ngaysinh">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Đăng ký</legend>
+            <table border="1" width="300" cellpadding="3" cellspacing="3">
+                <tr>
+                    <td align="right" width="80">Khóa học</td>
+                    <td>
+                        <select name="khoahoc">
+                            <option value="ACCP">ACCP</option>
+                        </select>
+                </tr>
+                <tr>
+                    <td align="right" width="80">Giờ học</td>
+                    <td>
+                        <select name="giohoc">
+                            <option value="G">G</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <table> 
+            <td>
+                <input type="submit" value="Gửi">
+                <input type="reset" value="Xóa">
+            </td>
+        </table>
+    </form>
+</body>
+</html>
